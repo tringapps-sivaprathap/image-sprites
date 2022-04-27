@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Sprites</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>USe these options:</h1>
+        <div class="link-items">
+            <div id="media-one"></div>
+            <div id="media-two"></div>
+            <div id="media-three"></div>
+        </div>
+        <h1 id="message">Click something</h1>
+    </div>
+
+    <script>
+        const message = document.querySelector("#message");
+        const mediaOne = document.querySelector("#media-one");
+        const mediaTwo = document.querySelector("#media-two");
+        const mediaThree = document.querySelector("#media-three");
+
+        mediaOne.addEventListener("click", () => {
+            message.innerHTML = "Search";
+        });
+
+        mediaTwo.addEventListener("click", () => {
+            message.innerHTML = "Download";
+        });
+
+        mediaThree.addEventListener("click", () => {
+            message.innerHTML = "Close";
+        });
+    </script>
+</body>
+</html>

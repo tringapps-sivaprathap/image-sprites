@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 30vh;
+}
+
+.link-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30vw;
+}
+
+#media-one {
+    width: 40px;
+    height: 40px;
+    background: url('image-sprites.png') -10px -10px;
+}
+
+#media-two {
+    width: 35px;
+    height: 40px;
+    background: url('image-sprites.png') -765px -10px;
+}
+
+#media-three {
+    width: 35px;
+    height: 40px;
+    background: url('image-sprites.png') -810px -10px;
+}
