@@ -16,7 +16,15 @@ body {
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    height: 30vh;
+    height: 40vh;
+    background-color: rgb(255, 205, 161);
+    padding: 2rem;
+    border: 2px solid rgb(255, 119, 0);
+    border-radius: 5%;
+}
+
+#title {
+    color: green;
 }
 
 .link-items {
@@ -42,4 +50,8 @@ body {
     width: 35px;
     height: 40px;
     background: url('image-sprites.png') -810px -10px;
+}
+
+#message {
+    color: brown;
 }
